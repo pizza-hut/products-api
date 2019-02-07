@@ -1,0 +1,21 @@
+{
+  "name": "products-api",
+  "version": "0.0.1",
+  "description": "products api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",  
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "products"
+  ],
+  "author": "pongsoonlung@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.7"
+  },
+  "devDependencies": {}
+}
